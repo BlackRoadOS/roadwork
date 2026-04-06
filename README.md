@@ -1,67 +1,43 @@
-# RoadWork
+# roadwork — BlackRoad OS
 
-*Construction ahead. Your business builds itself.*
+**Live:** [roadwork.blackroad.io](https://roadwork.blackroad.io)
+**Part of:** [BlackRoad OS](https://os.blackroad.io) — browser-based desktop with 27 AI agents
 
-Complete company automation suite powered by 7 specialized agents that run your business while you steer.
+## Try It
 
-## The Ride
+Open [os.blackroad.io](https://os.blackroad.io) in any browser. No signup required. Click roadwork in the dock.
 
-Build at RoadWork. The construction zone. Your business runs itself — invoices, emails, scheduling, customer replies, marketing, operations. You set the destination. RoadWork paves the road while you steer.
+Or visit [roadwork.blackroad.io](https://roadwork.blackroad.io) directly.
 
 ## What It Does
 
-Business automation with 7 named AI agents handling finance, support, marketing, operations, legal, analytics, and strategy. They collaborate via CarPool, pull context from RoadTrip memory, stamp every action on RoadChain, and earn RoadCoin for completed work.
+roadwork is one of 17 products in BlackRoad OS, a browser-based operating system running on 5 Raspberry Pi 5 computers with Hailo-8 AI accelerators.
 
-## Integrations
+- **    3683 lines** of working code
+- Workers AI powered (Llama 3.1/3.2)
+- D1 database (SQLite at edge)
+- Part of the 27-agent ecosystem
+- No ads. No tracking. No algorithm.
 
-| Service | Role |
-|---------|------|
-| **Cloudflare Workers** | Business automation runtime |
-| **Cloudflare D1** | Task queues, agent state, business data |
-| **Stripe** | Invoicing, payment processing, subscriptions |
-| **Salesforce** | CRM webhook integration — account/contact sync |
-| **Linear** | Issue tracking and project management |
-| **Jira** | Enterprise issue tracking |
-| **Notion** | Workspace docs and database queries |
-| **Slack** | Team notifications and alerts |
-| **SendGrid** | Transactional email — invoices, receipts, alerts |
-| **Twilio** | SMS notifications for urgent business events |
-| **Zapier / Make** | Third-party automation workflow triggers |
-| **RoadChain** | Every decision and action stamped on the ledger |
-| **RoadCoin** | Agents earn ROAD collectively for completed tasks |
+## Stack
 
-## The 7 Agents
+- Runtime: Cloudflare Workers
+- Database: Cloudflare D1
+- AI: Workers AI
+- Auth: CarKeys (JWT + D1 sessions)
 
-| Agent | Role | Key Integrations |
-|-------|------|-----------------|
-| **Odysseus the Foreman** | Finance + Invoicing | Stripe, RoadChain |
-| **Support Scout** | Customer Support | SendGrid, Slack, RoadTrip memory |
-| **Market Maverick** | Marketing + Sales | BackRoad, BlackBoard |
-| **Ops Overseer** | Operations + Scheduling | Linear, Jira |
-| **Legal Lookout** | Compliance + Contracts | RoadChain verified approvals |
-| **Analytics Atlas** | Insights + KPIs | RoadChain data, RoadView |
-| **Growth Guide** | Strategy + Scaling | RoadTrip, all agents |
+## BlackRoad OS
 
-## Features
+17 products. 27 AI agents. 4 workspaces. Voice commands. Mesh compute. $200 of hardware.
 
-- 7 specialized agents that collaborate in real time
-- Auto-generated invoices, payment reminders, tax-ready reports
-- Customer support automation with human escalation
-- Campaign creation via BackRoad + BlackBoard
-- Calendar, onboarding/offboarding, expense approvals
-- Contract review and compliance checking
-- Live KPI dashboard with AI recommendations
-- Every action RoadChain-stamped for auditable proof
-- You stay in the driver's seat — approve high-value actions with one tap
+- **OS:** [os.blackroad.io](https://os.blackroad.io)
+- **Social:** [backroad.blackroad.io](https://backroad.blackroad.io)
+- **Agents:** [roadtrip.blackroad.io](https://roadtrip.blackroad.io)
+- **Tutor:** [roadie.blackroad.io](https://roadie.blackroad.io)
+- **Search:** [roadview.blackroad.io](https://roadview.blackroad.io)
+- **Code:** [roadcode.blackroad.io](https://roadcode.blackroad.io)
+- **GitHub:** [github.com/BlackRoadOS](https://github.com/BlackRoadOS)
 
-## Status
+## License
 
-**LIVE** | [work.blackroad.io](https://work.blackroad.io)
-
-## How It Powers The BlackRoad
-
-RoadWork is the construction crew that never sleeps. While you steer the vision, the 7 agents build the business behind you.
-
----
-
-Part of [BlackRoad OS](https://blackroad.io) — Remember the Road. Pave Tomorrow.
+PROPRIETARY. Copyright 2025-2026 BlackRoad OS, Inc. All rights reserved.
